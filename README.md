@@ -7,7 +7,7 @@
     <img src="https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-shopping-cart-cyber-monday-vitaliy-gorbachev-blue-vitaly-gorbachev.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Shopping Cart page</h3>
 
   <p align="center">
     An awesome shopping cart!
