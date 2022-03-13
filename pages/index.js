@@ -1,6 +1,6 @@
 import handlers from '../utils/handlers';
 import styles from '../styles/Home.module.scss';
-import Divider from '../components/divider/divider';
+import Divider from '../components/Divider/Divider';
 import Item from '../components/Item/Item';
 import React, { useState, useEffect } from 'react';
 
