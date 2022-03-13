@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://shopping-cart-beta-rosy.vercel.app/">
+    <img src="https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-shopping-cart-cyber-monday-vitaliy-gorbachev-blue-vitaly-gorbachev.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome shopping cart!
+    <br />
+    <a href="https://shopping-cart-beta-rosy.vercel.app/"><strong>View Demo »</strong></a>
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+A shopping cart page example displaying prices and discount prices. The total shown in the end. A notification pops-up if the total is higher than the threshold. Enjoy ✨
+
+### Built With
+
+A simple Tech Stack is used in the project:
+
+* [Next.js](https://nextjs.org/)
+* [React.js](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com)
+* [Sass](https://sass-lang.com/)
+* [Vercel](https://vercel.com/)
+* [Axios](https://axios-http.com/)
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+Let me tell you how to install and use this project!
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/FeFranklin/shopping-cart.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run locally
+   ```sh
+   npm run dev
+   ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!-- USAGE EXAMPLES -->
+## Usage
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The shopping cart displays the items and the prices. Clicking the button change the set of products shown.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<!-- CONTACT -->
+## Contact
 
-## Learn More
+Felipe Franklin - felipelfbezerra54@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project Link: [https://github.com/FeFranklin/shopping-cart](https://github.com/FeFranklin/shopping-cart)
