@@ -43,15 +43,17 @@ const Home = () => {
     >
       <h3 className='my-3'>Meu Carrinho</h3>
       <Divider />
-      {items && items?.length > 0 && items.map(item => 
-        <Item
-          key={item.uniqueId}
-          title={item?.name}
-          price={decimal(item?.price)}
-          discountPrice={decimal(item?.sellingPrice)}
-          imgSrc={item?.imageUrl}
-        />
-      )}
+      <div className='py-3 w-100'>
+        {items && items?.length > 0 && items.map(item => 
+          <Item
+            key={item.uniqueId}
+            title={item?.name}
+            price={decimal(item?.price)}
+            discountPrice={decimal(item?.sellingPrice)}
+            imgSrc={item?.imageUrl}
+          />
+        )}
+      </div>
       <Divider />
       {loading && <p className='mt-5'>Loading...</p>}
       <div className='d-flex py-3 px-4 w-100 justify-content-between'>
