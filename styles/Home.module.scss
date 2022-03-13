@@ -1,0 +1,12 @@
+$notificationBackgroundColor : #c7ffa6;
+$notificationFontColor: #217a03;
+
+.cart__container {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.cart__notification {
+  color: $notificationFontColor;
+  background-color: $notificationBackgroundColor;
+}

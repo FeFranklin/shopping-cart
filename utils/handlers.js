@@ -14,5 +14,5 @@ const getAcima = () => {
 const getAbaixo = () => {
   return http.get("/abaixo");
 };
-
-export default { getAcima, getAbaixo };
+const handlers = { getAcima, getAbaixo };
+export default handlers;
